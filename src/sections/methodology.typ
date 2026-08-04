@@ -18,7 +18,7 @@ that play a central role in micro expression formation are selected: the eyebrow
 
 Inter frame facial motion is represented using TV-L1 optical flow. This method was chosen because it 
 produces stable motion estimates under low-amplitude facial changes and is more robust to noise and 
-illumination variation than conventional optical-flow approaches—a property that is decisive when the 
+illumination variation than conventional optical-flow approaches, which is a property that is decisive when the 
 target signal is a brief, low-amplitude micro-expression rather than an exaggerated macro-expression 
 @wedel2009improved, @zach2007duality.
 
@@ -69,7 +69,7 @@ simultaneously. The model architecture is illustrated in @fig:fig1.
 ) <fig:fig1>
 
 In addition to the primary model, this study also conducts a comparative evaluation against several 
-temporal models—BiLSTM, Temporal Convolutional Network (TCN), and Transformer—to analyze how 
+temporal models, namely BiLSTM, Temporal Convolutional Network (TCN), and Transformer, to analyze how 
 different temporal-modeling strategies affect classification performance.
 
 We also evaluate along two principal axes: micro expression phase detection and anxiety state 

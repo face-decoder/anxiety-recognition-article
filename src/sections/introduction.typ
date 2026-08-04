@@ -31,7 +31,7 @@ laboratory conditions and is processed offline. What remains conspicuously under
 use of micro-expressions to validate anxiety states under genuinely real-time conditions and, 
 more specifically, the integration of apex spotting, motion representation, and temporal 
 classification into a single, efficient, end-to-end pipeline capable of operating live. This gap 
-is precisely where the present work is positioned—not merely as an incremental improvement to any 
+is precisely where the present work is positioned, not merely as an incremental improvement to any 
 one component, but as a demonstration that these components can be unified into a coherent 
 real-time system without sacrificing either detection accuracy or responsiveness.
 
@@ -40,7 +40,7 @@ that combines TV-L1 optical-flow motion representation, spatial constraint via f
 prominence based micro expression phase detection with a dynamic threshold, and classification 
 through a purpose-built Temporal CNN. TV-L1 optical flow was selected for its capacity to maintain 
 stable motion estimation under low-amplitude facial changes and its robustness to noise, 
-illumination variation, and outlier data @wedel2009improved, @zach2007duality—properties that 
+illumination variation, and outlier data @wedel2009improved, @zach2007duality, which are properties that 
 are essential when the signal of interest is, by definition, faint and fleeting.
 
 The main contributions of this study are as follows: (1) an efficient, ROI-based motion 

@@ -18,8 +18,8 @@ At the classification stage, the Temporal CNN yields the highest validation accu
 Transformer demonstrates stronger cross domain generalization. This contrast suggests that CNN 
 based models are more effective at learning dataset specific patterns in the training data, whereas 
 the Transformer is better able to sustain performance when confronted with variation across 
-different subjects. Taken together with the latency results—an average end-to-end processing 
-time of 65.67 ms—these findings substantiate the paper's central contribution: a complete, 
+different subjects. Taken together with the latency results, which show an average end-to-end processing 
+time of 65.67 ms, these findings substantiate the paper's central contribution: a complete, 
 automatic, and genuinely real-time micro expression pipeline for anxiety recognition is achievable 
 on ordinary web infrastructure, closing a gap that most prior offline, laboratory bound micro 
 expression research has left open. Future work will focus on narrowing the validation to test 
